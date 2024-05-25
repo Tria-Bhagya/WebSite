@@ -1,0 +1,15 @@
+
+
+.company_logo{
+    height: 100px;
+    width: 100px;
+    /* border: 1px black solid; */
+    padding: 10px;
+}
+
+.com_logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
