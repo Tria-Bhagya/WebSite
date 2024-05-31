@@ -1,0 +1,15 @@
+.tshirtimg{
+    /* position: absolute; */
+    height: 810px;
+    width: 540px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.tshirtdiv{
+    position: absolute;
+    z-index: 2;
+}

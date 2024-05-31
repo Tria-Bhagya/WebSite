@@ -1,4 +1,6 @@
 *{
+    margin: 0px;
+    padding: 0px;
     background-color: #FFBACC;;
 }
 
@@ -8,8 +10,14 @@
     justify-content: space-between;
     /* border: 1px black solid; */
 }
+/*  */
 .herosection{
+    
+    height: 50vh;
+    width:100;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    
+   
+    /* border: 1px solid black; */
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Navigator from './navBar/nav'
-import Logo from './components/logo';
+import Navigator from './components/navBar/nav'
+import Logo from './components/logo/logo';
 import TagLine from './components/liveFashion/tagLine';
-import Tshirtimg from './components/hero_section/tshirt';
-import Beachtext from './components/hero_section/BEACH/beachtext'
+import Tshirtimg from './components/hero_section/tshirt/tshirt';
+import Beachtext from './components/hero_section/BEACHtext/beachtext'
 
 function App() {  
   return (
@@ -17,8 +17,10 @@ function App() {
 
     <TagLine/>
     </div>
+    
+    <Beachtext/>
+
     <div className='herosection'>
-      <Beachtext/>
       <Tshirtimg/>
     </div>
       

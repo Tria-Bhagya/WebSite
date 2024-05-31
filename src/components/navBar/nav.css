@@ -11,9 +11,9 @@
 }
 
 a{
-    font-size: xx-large;
+    font-size: x-large;
     font-family: "Montserrat Alternates", sans-serif;
-    font-weight: bold;
+    font-weight:500;
     font-style: normal;
     text-decoration: none;
     color: black;
