@@ -1,0 +1,26 @@
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 750px;
+    /* Set a max-width for the carousel */
+    margin: 0 auto;
+    /* Optional: add a border for styling */
+    background-color: #f8f9fa;
+    box-shadow: 7px 8px 15px rgba(56, 73, 57, 0.707);
+    /* Add shadow */
+    /* Optional: add a background color for styling */
+}
+
+.carousel-img {
+    height: 80%;
+    /* Set the desired height */
+    object-fit: cover;
+    /* Maintain aspect ratio while covering the entire area */
+}
